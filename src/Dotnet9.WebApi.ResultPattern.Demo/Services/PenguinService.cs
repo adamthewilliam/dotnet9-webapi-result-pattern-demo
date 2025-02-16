@@ -57,7 +57,7 @@ public class PenguinService : IPenguinService
         
         var insertedEntries = await _dbContext.SaveChangesAsync();
 
-        if (insertedEntries > 0)
+        if (insertedEntries <= 0)
             return Result.Fail(new InternalServerError("An Unexpected error occurred whilst creating a Penguin"));
         
         var result = new PenguinResponseDto(newPenguin.Id, newPenguin.Name, newPenguin.Species, newPenguin.Age);

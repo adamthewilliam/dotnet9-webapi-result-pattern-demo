@@ -23,6 +23,9 @@
       <_ContentIncludedByDefault Remove="Dotnet.WebApi.ResultPattern.Demo.UnitTests\obj\Dotnet.WebApi.ResultPattern.Demo.UnitTests.csproj.nuget.dgspec.json" />
       <_ContentIncludedByDefault Remove="Dotnet.WebApi.ResultPattern.Demo.UnitTests\obj\project.assets.json" />
       <_ContentIncludedByDefault Remove="Dotnet.WebApi.ResultPattern.Demo.UnitTests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Dotnet9.WebApi.ResultPattern.Demo.UnitTests\obj\Dotnet9.WebApi.ResultPattern.Demo.UnitTests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Dotnet9.WebApi.ResultPattern.Demo.UnitTests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Dotnet9.WebApi.ResultPattern.Demo.UnitTests\obj\project.packagespec.json" />
     </ItemGroup>
 
     <Target Name="OpenAPI" AfterTargets="Build" Condition="'$(Configuration)'=='Debug'">
