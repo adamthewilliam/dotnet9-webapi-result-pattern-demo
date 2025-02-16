@@ -1,0 +1,6 @@
+﻿services:
+  alertu.scalarswagger.api:
+    image: alertu.scalarswagger.api
+    build:
+      context: .
+      dockerfile: Dockerfile
